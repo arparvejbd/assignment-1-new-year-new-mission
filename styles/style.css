@@ -1,8 +1,6 @@
 /* import font family */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-/* font-family: 'Merriweather', serif; */
-
 /* common shared styles */
 * {
     margin: 0;
@@ -10,20 +8,108 @@
     font-family: 'Inter', sans-serif;
 }
 
-/* header section styles */
+.primary-title {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
 
+/* header section styles */
 .header-container {
-    background-color: red;
     width: 82.5%;
     max-width: 1320px;
-    margin: 0 auto;
+    margin: 50px auto;
+    color: #FFF;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/banner/Banner-Image.png');
+    height: 600px;
 }
+
+.happy-title {
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+}
+
+.new-year-title {
+    text-align: center;
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-weight: 900;
+    padding: 20px 344px;
+}
+
 /* main section styles */
 main section {
     width: 82.5%;
     max-width: 1320px;
     margin: 0 auto;
 }
+
+.off-container {
+    text-align: center;
+}
+
+.off-title {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 150px auto 48px;
+}
+
+.all-categories {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 15px auto 48px;
+}
+
+.off-container img {
+    margin-bottom: 150px;
+}
+
+/* Welcome section styles */
+.welcome-section {
+    display: flex;
+    color: #FFF;
+    border-radius: 16px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/banner/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding: 0 126px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.welcome-title {
+    font-family: 'Merriweather';
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+}
+
+.wel-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+
+.welcome-section button {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: transparent;
+    border: 0;
+    margin-left: 32px;
+}
+
 /* footer section styles */
 .footer-container {
     width: 82.5%;
