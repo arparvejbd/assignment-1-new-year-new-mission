@@ -112,7 +112,7 @@ main section {
 /* Join Info Section */
 .join-info {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    margin: 120px auto;
+    margin: 120px auto 0;
     height: 482px;
     text-align: center;
     padding-top: 100px;
@@ -148,6 +148,10 @@ main section {
     gap: 70px;
 }
 
+.best-offer-column .celebration-img {
+    width: 463px;
+    height: 463px;
+}
 .best-offer-column p {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
@@ -179,9 +183,91 @@ main section {
     font-size: 48px;
     font-weight: 700;
 }
+
 .new-year-img {
     margin-top: 43px;
 }
+
+/* holiday offer section */
+.holiday-sale {
+    text-align: center;
+    color: #070211;
+    margin-top: 120px;
+}
+
+.holiday-sale h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-sale h3 {
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-weight: 900;
+    margin: 10px auto 28px;
+}
+
+.holiday-sale h3 span {
+    color: #F00;
+}
+
+.holiday-sale p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 70%;
+    margin: auto;
+}
+
+.holiday-off-img {
+    margin: 64px auto 120px;
+}
+.holiday-absulate-img-1 {
+    position: relative;
+}
+.holiday-absulate-img-2 {
+    position: relative;
+}
+.holiday-absulate-img-3 {
+    text-align: right;
+    padding: 0;
+}
+.holiday-absulate-img-4 {
+    position: relative;
+}
+/* portfolio section */
+.portfolio-container {
+    margin-bottom: 120px;
+}
+
+.portfolio-details h3 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    margin: 16px 0 22px;
+}
+
+.portfolio-details p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 70%;
+    margin-bottom: 48px;
+}
+
+.portfolio-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.img-gallery-space {
+    margin-bottom: 24px;
+}
+
 /* newsletter section */
 .newsletter-container {
     border-radius: 16px;
