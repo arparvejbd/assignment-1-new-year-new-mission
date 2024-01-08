@@ -148,7 +148,7 @@ main section {
     gap: 70px;
 }
 
-.best-offer-column .celebration-img {
+.celebration-img {
     width: 463px;
     height: 463px;
 }
@@ -358,9 +358,8 @@ main section {
 
 /* footer section styles */
 footer {
-    height: 609px;
+    height: 630px;
     background: #070211;
-
 }
 
 .footer-container {
