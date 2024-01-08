@@ -387,6 +387,15 @@ footer {
     width: 30%;
 }
 
+.our-contact .contact-items {
+    display: flex;
+    align-items: center;
+}
+
+.contact-items-icon {
+    margin: 8px 10px 0 0;
+}
+
 .our-contact a {
     text-decoration: none;
     color: #FFF;
