@@ -152,6 +152,7 @@ main section {
     width: 463px;
     height: 463px;
 }
+
 .best-offer-column p {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
@@ -219,23 +220,42 @@ main section {
     width: 70%;
     margin: auto;
 }
-
+/* holiday offer image section */
 .holiday-off-img {
     margin: 64px auto 120px;
 }
-.holiday-absulate-img-1 {
+
+.holiday-img-1 {
+    position: absolute;
+    z-index: 1;
+}
+
+.holiday-img-3 {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    /* background-color: green; */
+}
+.holiday-img-2 {
+    position: absolute;
+    top: 50%;
+    transform: translate(-90%,-50%);
+}
+/* .holiday-img-2 img {
+    position: absolute;
+    top: 25%;
+} */
+/* 
+.holiday-img-3 {
+    margin-bottom: 0;
+} */
+
+.holiday-img-4 img {
+    width: 100%;
+    margin-top: -3px;
     position: relative;
 }
-.holiday-absulate-img-2 {
-    position: relative;
-}
-.holiday-absulate-img-3 {
-    text-align: right;
-    padding: 0;
-}
-.holiday-absulate-img-4 {
-    position: relative;
-}
+
 /* portfolio section */
 .portfolio-container {
     margin-bottom: 120px;
@@ -296,6 +316,7 @@ main section {
     width: 66%;
     margin: 0 auto 48px;
 }
+
 .subscribe-form form {
     display: inline-flex;
 }
